@@ -6,9 +6,9 @@ This repository is for minor assigment code for IF4031 Distributed Application D
 
 ## To run this repository
 
-1. Create ```terraform.tfvars``` file and specify your aws_access_key and aws_secret_key.
+1. Create ```terraform.tfvars``` file and specify your aws_access_key and aws_secret_key
 
-2. Run ```terraform init```.
+2. Run ```terraform init```
 3. Then, run ```terraform plan -out="tfplan"```
 4. Finally, apply code using ```terraform apply "tfplan"```
 
